@@ -1,5 +1,5 @@
 # project name (generate executable with this name)
-TARGET   = projectname
+TARGET   = crypto
 
 CC       = gcc
 # compiling flags here
