@@ -4,7 +4,12 @@ import java.math.BigInteger;
 public class RSA {
 
 	/**
-	 * @param args
+	 * Génère un couple de clés RSA :
+	 * (n, e) - clé publique
+	 *      d - clé privée
+	 * 
+	 * Pré-requis : fixer une taille minimum (min) pour la clé.
+	 * Ici, on fixe min = 2^1000 (clé sur 1000 bits)
 	 */
 	public static void main(String[] args) {
 		
